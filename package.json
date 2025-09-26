@@ -1,0 +1,22 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "A collection of JavaScript utilities",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgpak-dev/js-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evgpak-dev/js-utils/issues"
+  },
+  "homepage": "https://github.com/evgpak-dev/js-utils",
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
