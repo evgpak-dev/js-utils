@@ -17,14 +17,14 @@ describe('Slugify', () => {
   });
 
   it('should slugify string with special characters', () => {
-    const str = "Hello, world! How's it going?";
+    const str = 'Hello, world! How\'s it going?';
     const slug = slugify(str);
 
     expect(slug).toBe('hello-world-how-s-it-going');
   });
 
   it('should slugify string with numbers', () => {
-    const str = "Product 123 Name";
+    const str = 'Product 123 Name';
     const slug = slugify(str);
 
     expect(slug).toBe('product-123-name');

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A collection of JavaScript utilities",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/evgpak-dev/js-utils",
   "devDependencies": {
+    "eslint": "8.57.1",
     "vitest": "^3.2.4"
   }
 }
