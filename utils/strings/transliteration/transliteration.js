@@ -29,7 +29,7 @@ function transliterate(str) {
     'щ': 'shch',
     'ъ': 'ie',
     'ы': 'y',
-    'ь': "",
+    'ь': '',
     'э': 'e',
     'ю': 'iu',
     'я': 'ia'
@@ -41,7 +41,7 @@ function transliterate(str) {
     const char = str[i];
     const lowerChar = char.toLowerCase();
 
-    if (map.hasOwnProperty(lowerChar)) {
+    if (map.hasOwn(lowerChar)) {
       let traslitChar = map[lowerChar];
 
       if (char === char.toUpperCase()) {
