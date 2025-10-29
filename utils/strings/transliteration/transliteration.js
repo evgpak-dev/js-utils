@@ -41,7 +41,7 @@ function transliterate(str) {
     const char = str[i];
     const lowerChar = char.toLowerCase();
 
-    if (map.hasOwn(lowerChar)) {
+    if (Object.hasOwn(map, lowerChar)) {
       let traslitChar = map[lowerChar];
 
       if (char === char.toUpperCase()) {
