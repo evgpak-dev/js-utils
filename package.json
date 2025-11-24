@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A collection of JavaScript utilities",
   "scripts": {
-    "test": "vitest",
+    "test": "vitest --typecheck",
     "lint": "eslint ."
   },
   "repository": {
